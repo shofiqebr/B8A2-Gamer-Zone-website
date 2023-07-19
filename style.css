@@ -172,3 +172,18 @@
 
 }
 /* play-instantly part ends here */
+
+/* game selection part starts here */
+.upper-game-slection,.lower-game-selection{
+    display: flex;
+}
+.upper-game-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.lower-game-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* game selection part ends here */
