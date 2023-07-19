@@ -149,3 +149,26 @@
     border-radius: 10px;
 }
 /* online-games part ends here */
+
+/* play-instantly part starts here */
+.play-instantly-description{
+    text-align: right;
+    padding-right: 150px;
+}
+.play-instantly-img img{
+ width: 480px;
+ margin:100px 20px;
+}
+.play-instantly-image-container{
+    position: relative;
+}
+.play-instantly-over-img{
+    position: absolute;
+    bottom: 22px;
+    left: -70px;
+}
+.play-instantly-over-img img{
+    width: 250px;
+
+}
+/* play-instantly part ends here */
