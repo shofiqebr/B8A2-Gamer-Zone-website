@@ -100,7 +100,7 @@
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .gamer-image-container>img{
-  width: 696px;
+  width: 689px;
 }
 .gamer-description-container{
     text-align: right;
@@ -119,3 +119,33 @@
 }
 
 /* gamer part ends here */
+
+/* online-games part starts here */
+
+.online-game-header{
+    text-align: center;
+    margin: 50px auto 20px;
+}
+
+.online-game-header h1,p{
+    padding: 10px;
+}
+.online-game-img-container{
+   justify-content:center;
+   align-items: center;
+}
+.online-image{
+    margin: 10px;
+    flex-direction: column;
+}
+.online-image>p{
+    width: 250px;
+}
+.online-image img{
+    width: 250px;
+}
+.online-image img:hover{
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+/* online-games part ends here */
