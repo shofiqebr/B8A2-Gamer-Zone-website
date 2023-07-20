@@ -311,7 +311,7 @@ footer{
 
 /* responsive part */
 /* for mobile */
-@media  screen and (min-width:380px) and (max-width:425px)  {
+@media  screen and (max-width:425px)  {
     .header-part,.play-instantly-part,.online-game-img-container,.gamer-container,.nav-item-container ul{
         flex-direction: column;
     }
@@ -434,9 +434,4 @@ footer{
 
 
 
-/* for tablet */
-@media  screen and (min-width:380px) and (max-width:425px){
-
-
-}
 
