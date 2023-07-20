@@ -310,7 +310,8 @@ footer{
 
 
 /* responsive part */
-@media  screen and (min-width:425px) {
+/* for mobile */
+@media  screen and (min-width:380px) and (max-width:425px)  {
     .header-part,.play-instantly-part,.online-game-img-container,.gamer-container,.nav-item-container ul{
         flex-direction: column;
     }
@@ -341,7 +342,7 @@ footer{
     .gradiant-head{
         font-size: 50px !important;
     }
-    .primary-text,{
+    .primary-text{
         font-size: 12px;
         text-align: center;
     }
@@ -379,7 +380,63 @@ footer{
     width: 130px;
     margin-left: 40px;
 }
+.game-selection-img {
+    width: 20px;
+    height: 20px;
+}
+.game-selection-name {
+    font-size: 8px;
+    width: 88px;
+}
 
-
+.upper-game-slection {
+    margin: 0px;
+}
+.online-game-header h1, p {
+    padding: 2px;
+}
+.foot-head-container>img {
+    width: 40px;
+    margin: 13px;
+}
+.foot-head-container .foot-head {
+    font-size: 25px;
+}
+.desc-item,.footer-copy1>ul{
+    flex-wrap: wrap;
+}
+.desc-item>li>a {
+    font-size: 8px;
+}
+.description-item ul{
+    margin: 0 35px;
+}
+.description-item ul li{
+    padding: 10px;
+}
+.footer-icon ul li img {
+    width: 25px;
+}
+.footer-copy1 ul li a {
+    font-size: 5px;
+    padding: 10px 51px;
+}
+.copy {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 5px;
+    font-weight: 500;
+    padding: 21px 174px;
+}
     
 }
+
+
+
+/* for tablet */
+@media  screen and (min-width:380px) and (max-width:425px){
+
+
+}
+
