@@ -18,6 +18,11 @@
     justify-content: space-between;
     align-items: center;
 }
+.flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .allignment{
     max-width: 80%;
     margin: 0 auto;
@@ -95,9 +100,9 @@
 .banner-part{
    background-color: rgb(248, 247, 247);
 }
-.banner-description{
-    pl50
-}
+/* .banner-description{
+
+} */
 .banner-head{
     color: #0B0223;
     text-align: center;
@@ -141,7 +146,7 @@
     text-align: right;
 }
 .gamer-head{
-    padding-bottom: 20px;
+    padding: 40px 0 20px 0;
 }
 .gamer-btn{
     margin: 20px;
@@ -189,6 +194,7 @@
 .play-instantly-description{
     text-align: right;
     padding-right: 150px;
+    margin-left: 100px;
 }
 .play-instantly-img img{
  width: 480px;
@@ -262,19 +268,50 @@
 footer{
     background: #0B0223;
 }
-.foot-header ul li{
-    color:#fff;
-}
 .foot-head-container{
     color:#fff;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 100px 0 50px;
+    padding: 100px 0 20px 0;
+}
+.foot-head-container>img{
+    width: 60px;
+    margin: 20px;
 }
 .foot-head{
-    text-align: center;
     font-family: Work Sans;
     font-size: 40px;
     font-weight: 700;
+}
+
+.foot-head-container .foot-head{
+    font-size: 35px;
+}
+.desc-item>li>a{
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+.footer-icon ul li{
+    margin-left: 20px;
+    padding: 30px;
+}
+.footer-icon ul li img{
+    width: 40px;
+}
+.footer-copy1 ul li a{
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 30px;
+    
+}
+.copy{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 20px 0 100px 0;
 }
