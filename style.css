@@ -146,7 +146,8 @@
     text-align: right;
 }
 .gamer-head{
-    padding: 40px 0 20px 0;
+    padding: 40px 0 20px 0
+    ;
 }
 .gamer-btn{
     margin: 20px;
@@ -218,8 +219,10 @@
 .game-selection-part{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 50px 10px;
-    display: flex;
-    justify-content: center;
+    
+}
+.game-selection-container{
+    flex-wrap: wrap;
 }
 .upper-game-slection,.lower-game-selection{
     display: flex;
