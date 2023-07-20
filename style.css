@@ -100,9 +100,7 @@
 .banner-part{
    background-color: rgb(248, 247, 247);
 }
-/* .banner-description{
 
-} */
 .banner-head{
     color: #0B0223;
     text-align: center;
@@ -125,7 +123,8 @@
     background: #4EC5F7;
 }
 .upper-image img{
-    width: 550px;
+    width: 500px;
+    padding: 20px;
 }
 .img-bottom1{
     width: 200px;
@@ -307,4 +306,80 @@ footer{
     font-size: 13px;
     font-weight: 500;
     padding: 20px 0 100px 0;
+}
+
+
+/* responsive part */
+@media  screen and (min-width:425px) {
+    .header-part,.play-instantly-part,.online-game-img-container,.gamer-container,.nav-item-container ul{
+        flex-direction: column;
+    }
+    .baner-container{
+        flex-direction: column-reverse;
+    }
+    .nav-item-container ul li,.logo-container,.nav-item-container button{
+        margin: 20px;
+    }
+  .upper-image img{
+    width: 300px;
+}
+.upper-image{
+      margin-bottom: 20px;
+
+  }
+    .bottom-img{
+        display: flex;
+        padding: 20px;
+    }
+    .banner-description{
+        text-align-last: center;
+    }
+    
+    .banner-head{
+        font-size: 25px;
+    }
+    .gradiant-head{
+        font-size: 50px !important;
+    }
+    .primary-text,{
+        font-size: 12px;
+        text-align: center;
+    }
+    .gamer-image-container>img {
+        width: 400px;
+    }
+  .gamer-image-container>img {
+    width: 400px;
+}
+.font-style,.unleash {
+    font-size: 20px;
+}
+.gamer-description-container {
+    text-align: center;
+}
+.primary-paragraph{
+    font-size: 12px;
+}
+.btn-primary{
+    font-size: 10px;
+    padding: 10px 15px;
+}.our-purpose{
+    font-size: 14px;
+}
+.play-instantly-description{
+    text-align: center;
+    margin: 44px;
+    padding: 0;
+}
+.play-instantly-img img {
+    width: 250px;
+    margin-right: 0;
+}
+.play-instantly-over-img img {
+    width: 130px;
+    margin-left: 40px;
+}
+
+
+    
 }
